@@ -12,13 +12,26 @@
     <artifactId>dubbo-provider</artifactId>
 
     <dependencies>
-
-
         <dependency>
             <groupId>org.lee.dubbo</groupId>
             <artifactId>dubbo-api</artifactId>
             <version>${project.version}</version>
         </dependency>
-
     </dependencies>
+
+    <build>
+        <plugins>s
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
