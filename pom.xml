@@ -23,7 +23,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <zkclient.version>3.5.5</zkclient.version>
+        <zkclient.version>3.7.2</zkclient.version>
         <lombok.version>1.16.18</lombok.version>
         <dubbo-spring-boot>1.0.0</dubbo-spring-boot>
     </properties>
